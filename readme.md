@@ -3,7 +3,7 @@
 
 ## Create 'tsconfig.json'  
 
-`npx tsc --init --rootDir src --outDir build --lib dom,es6 --module commonjs --removeComments --target es6 --resolveJsonModule true`
+	npx tsc --init --rootDir src --outDir build --lib dom,es6 --module commonjs --removeComments --target es6 --resolveJsonModule true
 
 ## Production dependencies  
 
