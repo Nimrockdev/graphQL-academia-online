@@ -1,5 +1,8 @@
 #GraphQL whith Apollo server 2  
 
+>In docs you can see that the data can be returned to us in the different queries and mutations. 
+
+ 
 
 ##Create 'tsconfig.json'  
 
@@ -25,7 +28,7 @@ Production: [https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60](https://ze
 
 
 
-#Examples
+#Examples  
 ##Mutation with variables
 
     mutation nuevoCurso($curso: CursoInput!) {
