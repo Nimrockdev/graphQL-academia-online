@@ -29,7 +29,7 @@ Production: [https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60](https://ze
 
 Postman Documentation [https://documenter.getpostman.com/view/4424097/SztBb7yX](https://documenter.getpostman.com/view/4424097/SztBb7yX)
 
-# Examples  
+# Query Examples  
 	{
 	  estudiantes{
 	    id
