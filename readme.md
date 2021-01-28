@@ -29,6 +29,29 @@ Production: [https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60](https://ze
 
 
 # Examples  
+	{
+	  estudiantes{
+	    id
+	    name 
+	    email
+	    website
+	    courses{
+	      id
+	      title
+	      description
+	      clases
+	    }
+	  }
+	}  
+
+	{
+	  cursos {
+	    id
+	    title
+	    teacher
+	  }
+	}	
+
 ## Mutation with variables
 
 
