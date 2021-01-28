@@ -27,6 +27,7 @@ Inspect: [https://02-academi-online-new.now.sh/](https://02-academi-online-new.n
 
 Production: [https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60](https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60)
 
+Postman Documentation [https://documenter.getpostman.com/view/4424097/SztBb7yX](https://documenter.getpostman.com/view/4424097/SztBb7yX)
 
 # Examples  
 	{
@@ -52,6 +53,22 @@ Production: [https://zeit.co/jsg8405/02-academi-online-new/nvv19zd60](https://ze
 	  }
 	}	
 
+	query getCourse($id: ID!){
+	    course(id: $id) {
+		id
+		title
+		clases
+		logo
+		level
+		path
+		time
+		students {
+		    id
+		    name
+		    email
+		}
+	    }
+	}
 ## Mutation with variables
 
 
